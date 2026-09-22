@@ -17,7 +17,7 @@ public class Instruments
         count++;
         RegCode = $"REG-{count:D2}";
     }
-    public string RegCode { get; private set; } //автовластивістьб індивідуальний код інструменту
+    public string RegCode { get; private set; } = "REG_00"; //автовластивістьб індивідуальний код інструменту
 
     public string Name
     { get { return name; }
